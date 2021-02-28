@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Gotham-Bold';
+    /* Имя шрифта */
+    src: url("../fonts/Gotham-Bold.otf");
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    /* Имя шрифта */
+    src: url("../fonts/Gotham-Book.otf");
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    /* Имя шрифта */
+    src: url("../fonts/Gotham-Medium.otf");
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'Myriad-Pro';
+    /* Имя шрифта */
+    src: url("../fonts/Myriad-Pro.otf");
+    /* Путь к файлу со шрифтом */
+}
+.back {
+    background-color: #EBD71C;
+}
+
+nav {
+    background-color: transparent;
+}
+
+a.nav-link {
+    font-family: 'Myriad-Pro';
+    font-size: 20px;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background: rgba(34, 34, 34, 0.4);
+    z-index: 4;
+    border-bottom: 1px solid #f3e882;
+}
+
+li {
+    padding: 0.65em;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+
+@media (max-width: 992px) {
+    li.logo {
+        padding-left: 0.63em;
+        padding-right: 0.63em;
+    }
+    li {
+        padding: 0px;
+    }
+    /*   .box{
+        padding-left: 0px;
+        text-align: center;
+    }*/
+}

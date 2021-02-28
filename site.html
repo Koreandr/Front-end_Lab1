@@ -6,103 +6,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="StarWarsIntro.css : The Star Wars Intro Crawl" />
-
+  <title>Our Star Wars</title>
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  
+   
+  <!-- Подключаем Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
   <link rel="stylesheet" href="css/starwarsintro.css">
-  <title>Star Wars</title>
+  <link href="css/style.css" rel="stylesheet">
 
-  <style type="text/css">
-    body, h1, h2, h3, h4, h5, h6, p, a, td, li, .btn {
-      font-family: 'Lato', Helvetica, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    .pad {
-      padding: 60px 10px; 
-    }
-    .container {
-      max-width: 900px;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      font-weight: 700;
-    }
-    h1 {
-      font-size: 45px;
-      line-height: 55px;
-    }
-    h2 {
-      font-size: 35px;
-      line-height: 45px;
-      margin-top: 60px;
-    }
-    footer {
-      background-color: #111;
-      padding: 40px 20px;
-      color: white;
-    }
-    footer a {
-      color: white;
-    }
-    footer a:hover,
-    footer a:active,
-    footer a:focus {
-      color: white;
-      text-decoration: none;
-      opacity: .7;
-    }
-    .btn-white-outline {
-      background-color: transparent;
-      border-color: white;
-      border-width: 2px;
-      color: white;
-    }
-
-    .btn.btn-white-outline:hover,
-    .btn.btn-white-outline:active,
-    .btn.btn-white-outline:focus {
-      background-color: white;
-      border-color: white;
-      color: #FF5E52;
-      box-shadow: none;
-    }
-
-    .btn-primary-outline {
-      background-color: transparent;
-      border-color: #FF5E52;
-      border-width: 2px;
-      color: #FF5E52;
-    }
-    .container-md {
-      max-width: 500px;
-    }
-    .download-wrapper {
-      position: absolute;
-      right: 15px;
-      top: 15px;
-      z-index: 999999999;
-    }
-    .btn-outline {
-      border: 2px solid #EBD71C;
-      color: #EBD71C;
-      font-weight: bold;
-      text-transform: uppercase;
-      padding: 10px 20px;
-    }
-    .btn-outline:hover,
-    .btn-outline:active,
-    .btn-outline:focus {
-      background-color: #EBD71C;
-      color: black;
-    }
-  </style>
-</head>
-<body>
-  <!-- <div class="download-wrapper">
-    <a href="starwarsintro.css.zip" class="btn btn-outline">Download CSS</a>
-  </div> -->
+  <!-- Подключаем jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Подключаем Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  
+  <body>
+        <header>
+            <div class="container">
+                <nav class=" navbar navbar-expand-lg  ">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/logo.png" alt="logo" width="64px" height="64px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-togler-icong ">
+               <img src="img/menu.png" alt="logo"> 
+             </span>
+           </button>
+    
+                    <div class="collapse navbar-collapse back box" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a href="#banner" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#Team" class="nav-link">Pages</a>
+                            </li>
+    
+                            <li class="nav-item ">
+                                <a href="#feature" class="nav-link">Features</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#Extensions" class="nav-link">Extensions</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#Tutorials" class="nav-link">Tutorials</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#Contact" class="nav-link">Contact us</a>
+                            </li>
+                            <div class="row">
+                                <li class="nav-item logo">
+                                    <a href="https://www.instagram.com" class="nav-link">
+                                        <img src="img/face_logo.png" alt="facebook">
+                                    </a>
+                                </li>
+                                <li class="nav-item logo">
+                                    <a href="https://www.instagram.com" class="nav-link">
+                                        <img src="img/twitter_logo.png" alt="twitter">
+                                    </a>
+                                </li>
+                                <li class="nav-item logo">
+                                    <a href="https://www.instagram.com" class="nav-link">
+                                        <img src="img/skype_logo.png" alt="skype">
+                                    </a>
+                                </li>
+                                <li class="nav-item logo">
+                                    <a href="https://www.instagram.com" class="nav-link" id="right">
+                                        <img src="img/in_logo.png" alt="instagram">
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+  <!-- STAR WARS INTRO -->
   <div class="star-wars-intro">
 
     <!-- Blue Intro Text -->

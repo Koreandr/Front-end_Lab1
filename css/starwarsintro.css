@@ -4,7 +4,89 @@ body, html{
   min-height: 100vh;
   margin: 0px;
 }
+body, h1, h2, h3, h4, h5, h6, p, a, td, li, .btn {
+  font-family: 'Lato', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+.pad {
+  padding: 60px 10px; 
+}
+.container {
+  max-width: 900px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 45px;
+  line-height: 55px;
+}
+h2 {
+  font-size: 35px;
+  line-height: 45px;
+  margin-top: 60px;
+}
+footer {
+  background-color: #111;
+  padding: 40px 20px;
+  color: white;
+}
+footer a {
+  color: white;
+}
+footer a:hover,
+footer a:active,
+footer a:focus {
+  color: white;
+  text-decoration: none;
+  opacity: .7;
+}
+.btn-white-outline {
+  background-color: transparent;
+  border-color: white;
+  border-width: 2px;
+  color: white;
+}
+
+.btn.btn-white-outline:hover,
+.btn.btn-white-outline:active,
+.btn.btn-white-outline:focus {
+  background-color: white;
+  border-color: white;
+  color: #FF5E52;
+  box-shadow: none;
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #FF5E52;
+  border-width: 2px;
+  color: #FF5E52;
+}
+.container-md {
+  max-width: 500px;
+}
+.download-wrapper {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 999999999;
+}
+.btn-outline {
+  border: 2px solid #EBD71C;
+  color: #EBD71C;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus {
+  background-color: #EBD71C;
+  color: black;
+}
 .star-wars-intro {
   background: url("../img/stars-bg.jpg") center center;
   background-size: cover;
