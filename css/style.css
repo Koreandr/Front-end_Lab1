@@ -40,6 +40,13 @@ a.nav-link:hover{
     color: #ffffff;
 }
 
+
+
+
+
+
+
+/*HEADER*/
 header {
     width: 100%;
     height: auto;
@@ -71,10 +78,10 @@ body {
     li {
         padding: 0px;
     }
-    .box{
+    /* .box{
         padding-left: 0px;
         text-align: center;
-    }
+    } */
 }
 /* block about */
 .rowDiv {
