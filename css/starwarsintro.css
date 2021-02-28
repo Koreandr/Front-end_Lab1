@@ -9,7 +9,6 @@ body, h1, h2, h3, h4, h5, h6, p, a, td, li, .btn {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .pad {
   padding: 60px 10px; 
 }
@@ -28,66 +27,7 @@ h2 {
   line-height: 45px;
   margin-top: 60px;
 }
-footer {
-  background-color: #111;
-  padding: 40px 20px;
-  color: white;
-}
-footer a {
-  color: white;
-}
-footer a:hover,
-footer a:active,
-footer a:focus {
-  color: white;
-  text-decoration: none;
-  opacity: .7;
-}
-.btn-white-outline {
-  background-color: transparent;
-  border-color: white;
-  border-width: 2px;
-  color: white;
-}
-
-.btn.btn-white-outline:hover,
-.btn.btn-white-outline:active,
-.btn.btn-white-outline:focus {
-  background-color: white;
-  border-color: white;
-  color: #FF5E52;
-  box-shadow: none;
-}
-
-.btn-primary-outline {
-  background-color: transparent;
-  border-color: #FF5E52;
-  border-width: 2px;
-  color: #FF5E52;
-}
-.container-md {
-  max-width: 500px;
-}
-.download-wrapper {
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  z-index: 999999999;
-}
-.btn-outline {
-  border: 2px solid #EBD71C;
-  color: #EBD71C;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 10px 20px;
-}
-.btn-outline:hover,
-.btn-outline:active,
-.btn-outline:focus {
-  background-color: #EBD71C;
-  color: black;
-}
-.star-wars-intro {
+.star-wars {
   background: url("../img/stars-bg.jpg") center center;
   background-size: cover;
   width: 100%;
@@ -100,7 +40,7 @@ footer a:focus {
   position: relative;
 }
 
-.star-wars-intro p.intro-text {
+.star-wars p.intro-text {
   position: relative;
   max-width: 16em;
   font-size: 200%;
@@ -117,7 +57,7 @@ footer a:focus {
   animation: intro 2s ease-out;
 }
 
-.star-wars-intro .main-content{
+.star-wars .main-content{
   margin-left: auto;
   margin-right: auto;
   position: absolute;
@@ -133,7 +73,7 @@ footer a:focus {
   transform: perspective(350px) rotateX(25deg);
 }
 
-.star-wars-intro .main-content:after {
+.star-wars .main-content:after {
   position: absolute;
   content: ' ';
   top: 0;
@@ -142,43 +82,19 @@ footer a:focus {
   pointer-events: none;
 }
 
-.star-wars-intro .space-button {
-  color: #EBD71C;
-  border: 12px solid #EBD71C;
-  padding: 20px;
-  background: transparent;
-  text-decoration: none;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-
-.star-wars-intro .space-button:hover {
-  background-color: #D2BE03;
-  border-color: #D2BE03;
-  color: black;
-}
-
-.star-wars-intro .space-button:active,
-.star-wars-intro .space-button:focus {
-  background-color: #B8A40A;
-  border-color: #B8A40A;
-  color: black;
-}
-
-.star-wars-intro .title-content {
+.star-wars .title-content {
   position: absolute;
   top: 100%;
   animation: scroll 120s linear 4s forwards;
 }
 
-.star-wars-intro .title-content > .content-header {
+.star-wars .title-content > .content-header {
   text-align: center;
 }
 
 /* Main Image Styles */
 
-.star-wars-intro .main-logo {
+.star-wars .main-logo {
   position: absolute;
   width: 2.6em;
   left: 50%;
@@ -199,7 +115,7 @@ footer a:focus {
   animation: logo 5s ease-out 2.5s;
 }
 
-.star-wars-intro .main-logo > img {
+.star-wars .main-logo > img {
   max-width: 100%;
 }
 
@@ -270,10 +186,10 @@ footer a:focus {
 }
 
 @media screen and (max-width: 720px) {
-  .star-wars-intro .main-content {
+  .star-wars .main-content {
     font-size: 35px;
   }
-  .star-wars-intro .title-content {
+  .star-wars .title-content {
     position: absolute;
     top: 100%;
     animation: scroll 100s linear 4s forwards;

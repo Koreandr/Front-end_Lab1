@@ -25,9 +25,9 @@
     src: url("../fonts/Myriad-Pro.otf");
     /* Путь к файлу со шрифтом */
 }
-.back {
+/* .back {
     background-color: #EBD71C;
-}
+} */
 
 nav {
     background-color: transparent;
@@ -45,7 +45,6 @@ header {
     position: fixed;
     background: rgba(34, 34, 34, 0.4);
     z-index: 4;
-    border-bottom: 1px solid #f3e882;
 }
 
 li {
@@ -66,8 +65,8 @@ body {
     li {
         padding: 0px;
     }
-    /*   .box{
+    .box{
         padding-left: 0px;
         text-align: center;
-    }*/
+    }
 }
