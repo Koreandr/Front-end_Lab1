@@ -1,0 +1,562 @@
+@font-face {
+    font-family: 'Gotham-Bold';
+    /* Имя шрифта */
+    src: url("../fonts/Gotham-Bold.otf");
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    /* Имя шрифта */
+    src: url("../fonts/Gotham-Book.otf");
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    /* Имя шрифта */
+    src: url("../fonts/Gotham-Medium.otf");
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'Myriad-Pro';
+    /* Имя шрифта */
+    src: url("../fonts/Myriad-Pro.otf");
+    /* Путь к файлу со шрифтом */
+}
+
+.back {
+    background-color: #11749ec9;
+}
+
+nav {
+    background-color: transparent;
+}
+
+a.nav-link {
+    font-family: 'Myriad-Pro';
+    font-size: 20px;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background: rgba(34, 34, 34, 0.4);
+    z-index: 4;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+li {
+    padding: 0.33em;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+
+@media (max-width: 992px) {
+    li.logo {
+        padding-left: 0.63em;
+        padding-right: 0.63em;
+    }
+    li {
+        padding: 0px;
+    }
+    /*   .box{
+        padding-left: 0px;
+        text-align: center;
+    }*/
+}
+
+#banner {
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    height: 11%;
+}
+
+.box {
+    padding-left: 16em;
+}
+
+.title {
+    height: 22em;
+    font-family: 'Gotham-Bold';
+    font-size: 152.54px;
+    color: white;
+    vertical-align: middle;
+}
+
+.titleDown {
+    text-align: center;
+    font-family: 'Gotham-Medium';
+    color: #11749e;
+    font-size: 24.79px;
+    margin-bottom: 0px;
+    text-align: justify;
+    letter-spacing: 20px;
+    padding-left: inherit;
+}
+
+@media(max-width: 700px) {
+    .title {
+        font-size: 50px;
+    }
+    .titleDown {
+        font-size: 18px;
+    }
+}
+
+#cent {
+    height: 3em;
+}
+
+.zero {
+    height: 19em;
+}
+
+.scrollDown {
+    font-size: 'Myriad-Pro';
+    font-size: 13px;
+    color: white;
+}
+
+@media (max-width: 992px) and (min-width: 700px) {
+    .title {
+        font-size: 80px;
+    }
+}
+
+@media(max-width: 1200px) and (min-width: 992px) {
+    .box {
+        padding-left: 6.3em;
+    }
+}
+
+@media (max-width: 1250px) {
+    .textin {
+        padding-left: 6.3em;
+        padding-top: 3.8em;
+    }
+}
+
+.agency {
+    background-color: #11749e;
+    min-height: 738px;
+}
+
+.logoWord {
+    padding-top: 6.3em;
+}
+
+.fotoWord {
+    display: inline-block;
+    position: absolute;
+    background-image: url(../img/We.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 9.4em;
+    padding-top: 3.1em;
+}
+
+.textOnFoto {
+    font-family: 'Gotham-Medium';
+    font-size: 37.55px;
+    color: white;
+}
+
+.feature p {
+    font-family: 'Gotham-Medium';
+    font-size: 18px;
+    color: white;
+    padding-top: 0.63em;
+}
+
+p.small {
+    font-family: 'Gotham-Book';
+    font-size: 14px;
+    color: white;
+}
+
+.rowDiv {
+    min-height: 474px;
+}
+
+#div1 {
+    background-color: #222222;
+}
+
+#div2 {
+    background-image: url(../img/Bloc1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 474px;
+}
+
+#div4 {
+    background-color: #f3f3f3;
+}
+
+#div3 {
+    background-image: url(../img/Block2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 474px;
+}
+
+.smallLeters {
+    font-family: 'Gotham-Book';
+    font-size: 13px;
+    padding-top: 1.9em;
+}
+
+@media (min-width: 1250px) {
+    .textin {
+        padding-left: 12em;
+        padding-top: 3.8em;
+    }
+}
+
+.bigLeters {
+    font-family: 'Gotham-Medium';
+    font-size: 25px;
+}
+
+#one {
+    color: #222222;
+}
+
+#two {
+    color: white;
+}
+
+.blog {
+    min-height: 1017px;
+    background-color: #ffffff;
+}
+
+.fotoWordBlog {
+    display: inline-block;
+    position: absolute;
+    background-image: url(../img/Blog.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 13em;
+    padding-top: 4.4em;
+}
+
+.textOnFotoBlog {
+    font-family: 'Gotham-Medium';
+    font-size: 37.55px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.titelBlog {
+    font-family: 'Gotham-Book';
+    font-size: 30.06px;
+    color: #222222;
+}
+
+.blockBlog p {
+    font-family: 'Gotham-Medium';
+    font-size: 18px;
+    color: #11749e;
+    padding-top: 0.63em;
+}
+
+.blockBlog p.f {
+    font-family: 'Gotham-Book';
+    font-size: 14px;
+    color: #222222;
+    padding-top: 10px;
+}
+
+.blockBlog img {
+    width: 108%;
+    height: 60%;
+}
+
+.writeMe {
+    background-color: #11749e;
+    min-height: 391px;
+    display: inline-block;
+    padding-top: 9.4em;
+}
+
+@media (max-width: 992px) {
+    .writeMe {
+        background-color: #11749e;
+        min-height: 391px;
+        display: inline-block;
+        padding-top: 6.3em;
+    }
+    .blockBlog p.f {
+        font-family: 'Gotham-Book';
+        font-size: 12px;
+        color: #222222;
+        padding-top: 0.63em;
+    }
+}
+
+.writeMe img {
+    float: left;
+    padding-top: 0.38em;
+}
+
+.writeMe p {
+    font-family: 'Gotham-Book';
+    font-size: 14px;
+    color: white;
+    padding-left: 5.3em;
+}
+
+.akitaDog {
+    min-height: 870px;
+    background-image: url(../img/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6.9em;
+}
+
+@media (max-width: 768px) {
+    .phone {
+        padding-top: 1.3em;
+    }
+}
+
+.akitaDog p.titleAk {
+    font-family: 'Gotham-Medium';
+    font-size: 25px;
+    color: white;
+    padding-top: 6.3em;
+}
+
+.akitaDog p.smallLeters {
+    font-family: 'Gotham-Book';
+    font-size: 15px;
+    padding-top: 1.9em;
+    color: white;
+    padding-bottom: 1.9em;
+}
+
+.divText {
+    margin-top: 1.9em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #11749e;
+    font-family: 'Gotham-Medium';
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    width: 22em;
+}
+
+.fotoWordTeam {
+    display: inline-block;
+    position: absolute;
+    background-image: url(../img/teamBlock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 13em;
+    padding-top: 4.4em;
+}
+
+.textOnFotoTeam {
+    font-family: 'Gotham-Medium';
+    font-size: 37.55px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.titelTeam {
+    font-family: 'Gotham-Book';
+    font-size: 30.06px;
+    color: #222222;
+}
+
+.nameTeam {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 89%;
+}
+
+.nameTeam>span {
+    font-family: 'Gotham-Bold';
+}
+
+br~span {
+    color: #11749e;
+    font-family: 'Gotham-Medium';
+}
+
+.blockTeam {
+    padding-top: 3%;
+}
+
+.teamBlock {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 22em;
+}
+
+.ceo {
+    background-image: url(../img/ceo.jpg);
+}
+
+.designer {
+    background-image: url(../img/webDesigner.jpg);
+    background-position-x: 17%;
+}
+
+.photographer1 {
+    background-image: url(../img/photographer.jpg);
+}
+
+.team {
+    min-height: 850px;
+}
+
+.contact {
+    min-height: 922px;
+    background-image: url(../img/banner3.png);
+}
+
+.fotoWordContact {
+    display: inline-block;
+    position: absolute;
+    background-image: url(../img/contact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 13em;
+    padding-top: 4.4em;
+}
+
+.textOnContact {
+    font-family: 'Gotham-Medium';
+    font-size: 37px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.titelContact {
+    font-family: 'Gotham-Book';
+    font-size: 30.06px;
+    color: #222222;
+}
+
+#rowContact {
+    padding-top: 4.4em;
+}
+
+.rowContact {
+    padding: 0.94em 0px;
+}
+
+input {
+    font-family: 'Gotham-Book';
+    font-size: 15px;
+    padding: 0.38em 0 0.25em 0.63em;
+    border: 1px solid #ffffff;
+    background: transparent;
+    width: 100%;
+    color: white;
+}
+
+.message {
+    height: 9.4em;
+}
+
+.pad {
+    padding-top: 0px;
+}
+
+@media (max-width: 767px) {
+    .pad {
+        padding-top: 0.94em;
+    }
+}
+
+.buttonCont {
+    background-color: #11749e;
+    color: white;
+    text-transform: uppercase;
+    border: 0px;
+    height: 2.2em;
+}
+
+.phoneCont {
+    height: 2.2em;
+}
+
+.btnCont {
+    padding-top: 1.9em;
+}
+
+#buttonCont {
+    font-family: 'Gotham-Medium';
+    font-size: 24px;
+    height: 4em;
+    width: 100%;
+}
+
+
+/*Футер для сайта*/
+
+.foot {
+    min-height: 100%;
+    background-color: #222222;
+}
+
+.footer-copyright {
+    background-color: #222222;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.footer-copyright p {
+    font-family: 'Gotham-Book';
+    margin: 0.63em;
+    color: #ccc;
+}
+
+footer.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.b-container {
+    width: 13em;
+    height: 9.4em;
+    background-color: #ccc;
+    margin: 0px auto;
+    padding: 0.63em;
+    font-size: 30px;
+    color: #fff;
+}
+
+.b-popup {
+    width: 100%;
+    min-height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+}
+
+.b-popup .b-popup-content {
+    margin: 2.5em auto 0px auto;
+    width: 6.3em;
+    height: 2.5em;
+    padding: 0.63em;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
+}

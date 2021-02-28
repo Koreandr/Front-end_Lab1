@@ -45,7 +45,7 @@ header {
     height: auto;
     position: fixed;
     z-index: 4;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 div.center-nav{
@@ -76,9 +76,113 @@ body {
         text-align: center;
     }
 }
+/* block about */
+.rowDiv {
+    min-height: 474px;
+}
 
-.about-us{
-    background-color: #EBD71C;
-    height: 500px;
-    width: 100%;
+.cart-text {
+    background-color: #000000;
+}
+
+.cart-photo-right {
+    background-image: url(../img/cart1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 474px;
+}
+
+.cart-photo-left {
+    background-image: url(../img/cart4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 474px;
+}
+
+@media (min-width: 1250px) {
+    .textin {
+        padding-left: 12em;
+        padding-top: 3.8em;
+    }
+}
+.smallLeters {
+    font-family: 'Gotham-Book';
+    font-size: 16px;
+    padding-top: 1.9em;
+}
+.bigLeters {
+    font-family: 'Gotham-Medium';
+    font-size: 25px;
+}
+.textin{
+    color:#ffffff;
+}
+
+/*block team*/
+.team{background-color: #ffffff!important;}
+.fotoWordTeam {
+    display: inline-block;
+    position: absolute;
+    background-image: url(../img/teamBlock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 13em;
+    padding-top: 4.4em;
+}
+
+.textOnFotoTeam {
+    font-family: 'Gotham-Medium';
+    font-size: 37.55px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.titelTeam {
+    font-family: 'Gotham-Book';
+    font-size: 30.06px;
+    color: #ffffff;
+}
+
+.nameTeam {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 89%;
+}
+
+.nameTeam>span {
+    font-family: 'Gotham-Bold';
+}
+
+br~span {
+    color: #11749e;
+    font-family: 'Gotham-Medium';
+}
+
+.blockTeam {
+    padding-top: 3%;
+}
+
+.teamBlock {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 22em;
+}
+
+.ceo {
+    background-image: url(../img/ceo.jpg);
+}
+
+.designer {
+    background-image: url(../img/webDesigner.jpg);
+    background-position-x: 17%;
+}
+
+.photographer1 {
+    background-image: url(../img/photographer.jpg);
+}
+
+.team {
+    min-height: 850px;
 }
