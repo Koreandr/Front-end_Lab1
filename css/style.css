@@ -119,21 +119,15 @@ body {
 }
 
 /*block team*/
-.team{background-color: #ffffff!important;}
-.fotoWordTeam {
-    display: inline-block;
-    position: absolute;
-    background-image: url(../img/teamBlock.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 13em;
-    padding-top: 4.4em;
+.logoWord {
+    padding-top: 6.3em;
+    text-align: center;
 }
 
 .textOnFotoTeam {
     font-family: 'Gotham-Medium';
     font-size: 37.55px;
-    color: #ffffff;
+    color: #EBD71C;
     text-transform: uppercase;
 }
 
@@ -144,19 +138,17 @@ body {
 }
 
 .nameTeam {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 16px;
     position: absolute;
     bottom: 0;
-    background-color: white;
+    background-color: #EBD71C;
     width: 89%;
 }
 
-.nameTeam>span {
-    font-family: 'Gotham-Bold';
-}
-
 br~span {
-    color: #11749e;
-    font-family: 'Gotham-Medium';
+    color: #000000;
+    font-weight: 700;
 }
 
 .blockTeam {
@@ -167,22 +159,21 @@ br~span {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 22em;
+    height: 40em;
 }
 
 .ceo {
-    background-image: url(../img/ceo.jpg);
+    background-image: url(../img/karyna.jpg);
 }
 
 .designer {
-    background-image: url(../img/webDesigner.jpg);
-    background-position-x: 17%;
+    background-image: url(../img/max.jpg);
 }
 
-.photographer1 {
-    background-image: url(../img/photographer.jpg);
+.yoda {
+    background-image: url(../img/baby-yoda.jpg);
 }
 
 .team {
-    min-height: 850px;
+    min-height: 640px;
 }
