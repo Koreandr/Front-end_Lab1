@@ -43,6 +43,11 @@ header {
     z-index: 4;
 }
 
+div.center-nav{
+    display: flex;
+    justify-content: center;
+}
+
 li {
     padding: 0.65em;
 }
