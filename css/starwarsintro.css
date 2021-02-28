@@ -85,7 +85,7 @@ h2 {
 .star-wars .title-content {
   position: absolute;
   top: 100%;
-  animation: scroll 120s linear 4s forwards;
+  animation: scroll 60s linear infinite;
 }
 
 .star-wars .title-content > .content-header {
@@ -192,6 +192,6 @@ h2 {
   .star-wars .title-content {
     position: absolute;
     top: 100%;
-    animation: scroll 100s linear 4s forwards;
+    animation: scroll 100s linear infinite;
   }
 }
