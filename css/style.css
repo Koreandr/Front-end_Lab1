@@ -34,6 +34,10 @@ a.nav-link {
     font-family: 'Myriad-Pro';
     font-size: 20px;
     color: #EBD71C;
+    transition: 0.3s ease;
+}
+a.nav-link:hover{
+    color: #ffffff;
 }
 
 header {
@@ -41,6 +45,7 @@ header {
     height: auto;
     position: fixed;
     z-index: 4;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 div.center-nav{
@@ -70,4 +75,10 @@ body {
         padding-left: 0px;
         text-align: center;
     }
+}
+
+.about-us{
+    background-color: #EBD71C;
+    height: 500px;
+    width: 100%;
 }
