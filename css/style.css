@@ -25,9 +25,6 @@
     src: url("../fonts/Myriad-Pro.otf");
     /* Путь к файлу со шрифтом */
 }
-/* .back {
-    background-color: #EBD71C;
-} */
 
 nav {
     background-color: transparent;
@@ -36,14 +33,13 @@ nav {
 a.nav-link {
     font-family: 'Myriad-Pro';
     font-size: 20px;
-    color: white;
+    color: #EBD71C;
 }
 
 header {
     width: 100%;
     height: auto;
     position: fixed;
-    background: rgba(34, 34, 34, 0.4);
     z-index: 4;
 }
 
