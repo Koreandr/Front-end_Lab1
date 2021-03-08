@@ -1,29 +1,21 @@
 @font-face {
     font-family: 'Gotham-Bold';
-    /* Имя шрифта */
     src: url("../fonts/Gotham-Bold.otf");
-    /* Путь к файлу со шрифтом */
 }
 
 @font-face {
     font-family: 'Gotham-Book';
-    /* Имя шрифта */
     src: url("../fonts/Gotham-Book.otf");
-    /* Путь к файлу со шрифтом */
 }
 
 @font-face {
     font-family: 'Gotham-Medium';
-    /* Имя шрифта */
     src: url("../fonts/Gotham-Medium.otf");
-    /* Путь к файлу со шрифтом */
 }
 
 @font-face {
     font-family: 'Myriad-Pro';
-    /* Имя шрифта */
     src: url("../fonts/Myriad-Pro.otf");
-    /* Путь к файлу со шрифтом */
 }
 
 nav {
@@ -40,14 +32,10 @@ a.nav-link:hover{
     color: #ffffff;
 }
 
-
-
-
 /*HEADER*/
 header {
     width: 100%;
     height: auto;
-    position: fixed;
     z-index: 4;
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -75,12 +63,9 @@ body {
     li {
         padding: 0px;
     }
-    /* .box{
-        padding-left: 0px;
-        text-align: center;
-    } */
 }
-/* block about */
+
+/* Block about */
 .rowDiv {
     min-height: 474px;
 }
@@ -122,7 +107,7 @@ body {
     color:#ffffff;
 }
 
-/*block team*/
+/*Block team*/
 .logoWord {
     padding-top: 6.3em;
     text-align: center;

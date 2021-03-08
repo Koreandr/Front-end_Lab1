@@ -31,6 +31,7 @@ h2 {
   background: url("../img/stars-bg.jpg") center center;
   background-size: cover;
   width: 100%;
+  max-height: 800px;
   height: 100%;
   font-family: "Droid Sans", arial, verdana, sans-serif;
   font-weight: 700;
@@ -85,8 +86,14 @@ h2 {
 .star-wars .title-content {
   position: absolute;
   top: 100%;
-  animation: scroll 60s linear infinite;
+  animation: scroll 80s linear 5s infinite;
 }
+@media (max-width:992px){
+  .star-wars .title-content {
+    animation: scroll 120s linear 5s infinite;
+  }
+}
+
 
 .star-wars .title-content > .content-header {
   text-align: center;
@@ -95,15 +102,8 @@ h2 {
 /* Main Image Styles */
 
 .star-wars .main-logo {
-  position: absolute;
-  width: 2.6em;
-  left: 50%;
-  top: 20vh;
-  font-size: 10em;
-  text-align: center;
-  margin-left: -1.3em;
-  line-height: 0.8em;
-  letter-spacing: -0.05em;
+  position: relative;
+  margin: auto;
   color: #000;
   text-shadow: -2px -2px 0 #EBD71C, 2px -2px 0 #EBD71C, -2px 2px 0 #EBD71C, 2px 2px 0 #EBD71C;
   opacity: 0;
